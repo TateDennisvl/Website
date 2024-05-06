@@ -12,15 +12,3 @@ iframe {
   height: 100%;
   border: none;
 }
-
-.fullscreen-button {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: blue;
-  color: white;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-}
