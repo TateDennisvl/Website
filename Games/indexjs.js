@@ -30,3 +30,18 @@ function getRandomImage() {
   const images = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg'];
   return images[Math.floor(Math.random() * images.length)];
 }
+
+const searchInput = document.getElementById('search-input');
+const squares = document.querySelectorAll('.square');
+
+searchInput.addEventListener('input', () => {
+  const searchValue = searchInput.value.toLowerCase();
+  squares.forEach((square) => {
+    const gameName = square.dataset.image.toLowerCase();
+    if (gameName.includes(searchValue)) {
+      square.style.display = 'block';
+    } else {
+      square.style.display = 'none';
+    }
+  });
+});
