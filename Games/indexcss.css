@@ -9,17 +9,6 @@
     border-radius: 20px;
   }
 
-  .search-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: #f2f2f2;
-    z-index: 1;
-  }
-  
   .game-container {
     display: flex;
     flex-wrap: wrap;
@@ -28,15 +17,11 @@
   }
   
   .square {
-    width: 250px; /* increase the size of the squares */
-    height: 250px;
+    width: 175px; /* increase the size of the squares */
+    height: 175px;
     margin: 20px;
     border-radius: 20px;
     background-color: #fff;
     transition: transform 0.3s;
   }
   
-  /* move the squares down to make space for the search bar */
-  .square:nth-child(1) {
-    margin-top: 60px;
-  }
