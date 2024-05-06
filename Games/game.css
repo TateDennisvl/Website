@@ -1,9 +1,10 @@
 #frame {
-    width: 33.33%; /* 1/3 of the screen */
-    height: 50vh; /* 1/2 of the viewport height */
-    margin: 0 auto;
-    position: relative;
-    top: 25vh; /* 1/2 of the viewport height */
+    width: 60%; /* 1/3 of the screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     background-color: #f0f0f0;
     box-sizing: border-box;
 }
