@@ -25,6 +25,12 @@
     transition: transform 0.3s;
   }
   
+  .square:nth-child(1) {
+    margin-top: 60px;
+  }
+  .square:nth-child(2) {
+    margin-top: 60px;
+  }
   .square:nth-child(3) {
     margin-top: 60px;
   }
