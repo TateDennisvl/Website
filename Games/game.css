@@ -15,8 +15,8 @@ iframe {
 
 .button-container {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 10;
+  left: 10;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -29,8 +29,8 @@ iframe {
   border-radius: 5px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
-  width: 40px; /* make buttons square */
-  height: 40px;
+  width: 70px; /* make buttons square */
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
