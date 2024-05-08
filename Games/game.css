@@ -22,7 +22,7 @@ iframe {
   align-items: center;
 }
 
-.home-button,.orange-button {
+.pink-button,.orange-button {
   font-size: 14px;
   padding: 10px;
   border: none;
@@ -36,7 +36,7 @@ iframe {
   align-items: center;
 }
 
-.home-button {
+.pink-button {
   background-color: #FFC5C5;
   color: #FFFFFF;
 }
@@ -47,13 +47,13 @@ iframe {
   margin-left: 10px; /* add distance between buttons */
 }
 
-.home-button:hover,.orange-button:hover {
+.pink-button:hover,.orange-button:hover {
   transform: scale(1.2);
 }
 
 /* Make buttons responsive */
 @media only screen and (max-width: 768px) {
- .home-button,.orange-button {
+ .pink-button,.orange-button {
     font-size: 12px;
     padding: 8px;
     width: 30px;
@@ -62,7 +62,7 @@ iframe {
 }
 
 @media only screen and (max-width: 480px) {
- .home-button,.orange-button {
+ .pink-button,.orange-button {
     font-size: 10px;
     padding: 6px;
     width: 20px;
