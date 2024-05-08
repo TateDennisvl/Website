@@ -22,16 +22,21 @@ iframe {
   align-items: center;
 }
 
-.pink-button,.orange-button {
+.home-button,.orange-button {
   font-size: 14px;
-  padding: 10px 20px;
+  padding: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
+  width: 40px; /* make buttons square */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.pink-button {
+.home-button {
   background-color: #FFC5C5;
   color: #FFFFFF;
 }
@@ -39,23 +44,28 @@ iframe {
 .orange-button {
   background-color: #FFA07A;
   color: #FFFFFF;
+  margin-left: 10px; /* add distance between buttons */
 }
 
-.pink-button:hover,.orange-button:hover {
+.home-button:hover,.orange-button:hover {
   transform: scale(1.2);
 }
 
 /* Make buttons responsive */
 @media only screen and (max-width: 768px) {
- .pink-button,.orange-button {
+ .home-button,.orange-button {
     font-size: 12px;
-    padding: 8px 16px;
+    padding: 8px;
+    width: 30px;
+    height: 30px;
   }
 }
 
 @media only screen and (max-width: 480px) {
- .pink-button,.orange-button {
+ .home-button,.orange-button {
     font-size: 10px;
-    padding: 6px 12px;
+    padding: 6px;
+    width: 20px;
+    height: 20px;
   }
 }
