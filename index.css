@@ -4,4 +4,11 @@
     width: 80px;
     height: 55px;
     border-radius: 25px;
+    background-color: rgb(150, 110, 189);
+}
+
+.play-button:hover {
+.play-button:hover {
+    transform: scale(0.4);
+}
 }
