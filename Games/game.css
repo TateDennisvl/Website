@@ -26,11 +26,11 @@ iframe {
   font-size: 14px;
   padding: 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
   width: 70px; /* make buttons square */
-  height: 70px;
+  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
