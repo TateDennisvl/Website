@@ -8,7 +8,7 @@
 }
 
 .play-button:hover {
-.play-button:hover {
-    transform: scale(0.4);
-}
+     .play-button:hover {
+        transform: scale(0.4);
+    }
 }
