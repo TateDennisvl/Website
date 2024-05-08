@@ -12,3 +12,50 @@ iframe {
   height: 100%;
   border: none;
 }
+
+.button-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pink-button,.orange-button {
+  font-size: 14px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.pink-button {
+  background-color: #FFC5C5;
+  color: #FFFFFF;
+}
+
+.orange-button {
+  background-color: #FFA07A;
+  color: #FFFFFF;
+}
+
+.pink-button:hover,.orange-button:hover {
+  transform: scale(1.2);
+}
+
+/* Make buttons responsive */
+@media only screen and (max-width: 768px) {
+ .pink-button,.orange-button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+ .pink-button,.orange-button {
+    font-size: 10px;
+    padding: 6px 12px;
+  }
+}
