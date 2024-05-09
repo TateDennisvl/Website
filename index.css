@@ -3,18 +3,18 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 160px;
-    height: 80px;
+    width: 10%;
+    height: 5%;
     border-radius: 30px;
     background-color: rgb(150, 110, 189);
     border: none;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Comic Neue', cursive;
     transition: transform 0.3s;
 }
 
 #play-button:hover {
-    transform: translate(-50%, -50%) scale(1.1); 
+    transform: translate(-50%, -50%) scale(1.1);
 }
 
 body {
