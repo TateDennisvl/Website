@@ -1,6 +1,6 @@
 body {
     margin: 0; /* remove default margin */
-    padding: 0; /* remove default padding */
+    padding: 0 0 0 5%; /* remove default padding and add padding to the top */
     background-color: #1f1f2b; /* Change the background color */
 }
 
