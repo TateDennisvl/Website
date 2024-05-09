@@ -12,12 +12,12 @@ body {
   }
   
   .box {
-    width: 18%; /* adjust the width of the boxes */
+    width: 8%; /* adjust the width of the boxes */
     height: 0;
     padding-bottom: 18%; /* maintain aspect ratio */
     background-color: pink;
     border-radius: 10px; /* rounded edges */
-    margin: 1%; /* add space between the boxes */
+    margin: 6%; /* add space between the boxes */
     position: relative; /* position the pseudo-element relative to the box */
     transition: transform 0.2s; /* add transition effect */
   }
