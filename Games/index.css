@@ -32,13 +32,13 @@ body {
     height: 100%;
     background-color: pink;
     border-radius: 20px; /* rounded edges */
-    transform: scale(0.9); /* grow the pseudo-element on hover */
+    transform: scale(1.1); /* grow the pseudo-element on hover */
     transition: transform 0.4s;
     z-index: -1; /* place the pseudo-element behind the box */
 }
 
 .box:hover::before {
-    transform: scale(0.9); /* grow the pseudo-element more on hover */
+    transform: scale(1.1); /* grow the pseudo-element more on hover */
 }
 
 .box:hover {
