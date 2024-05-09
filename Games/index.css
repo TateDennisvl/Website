@@ -1,0 +1,20 @@
+body {
+    margin: 0; /* remove default margin */
+    padding: 0; /* remove default padding */
+    background-color: #1f1f2b; /* Change the background color */
+  }
+  
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: 15%; /* 15% of the screen width */
+    height: 150px; /* you can adjust the height as needed */
+    background-color: pink;
+    border-radius: 10px; /* rounded edges */
+    margin: 20px; /* distance from each other and from edges */
+    content: ""; /* use CSS pseudo-element to create the box */
+  }
