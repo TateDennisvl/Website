@@ -38,11 +38,11 @@ body {
 }
 
 .box:hover::before {
-    transform: scale(1.2); /* grow the pseudo-element more on hover */
+    transform: scale(0.9); /* grow the pseudo-element more on hover */
 }
 
 .box:hover {
-    transform: scale(1.1); /* grow the box on hover */
+    transform: scale(0.9); /* grow the box on hover */
 }
 
 /* Specify the dimensions of the scrollbar */
@@ -75,7 +75,7 @@ body {
     width: 100%;
     height: 7%;
     position: absolute;
-    border-radius: 30px; /* rounded edges */
+    border-radius: 50px; /* rounded edges */
     border: none;
     background-color:#5d93bd;
 }
