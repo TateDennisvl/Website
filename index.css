@@ -11,6 +11,9 @@
     font-size: 3vw; /* Change the font size to 3vw */
     font-family: 'Comic Neue', cursive;
     transition: transform 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #play-button:hover {
