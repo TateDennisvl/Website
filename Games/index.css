@@ -1,6 +1,6 @@
 body {
     margin: 0; /* remove default margin */
-    padding: 10 0 0 5%; /* remove default padding and add padding to the top */
+    padding: 0; /* remove default padding */
     background-color: #1f1f2b; /* Change the background color */
 }
 
@@ -16,10 +16,11 @@ body {
     height: 14%; /* make the height the same as the width */
     aspect-ratio: 1; /* maintain a 1:1 aspect ratio */
     background-color: pink;
-    border-radius: 30px; /* rounded edges */
-    margin: 2%; /* add space between the boxes */
+    border-radius: 10px; /* rounded edges */
+    margin: 2% 2% 2% 2%; /* add space between the boxes */
     position: relative; /* position the pseudo-element relative to the box */
     transition: transform 0.2s; /* add transition effect */
+    margin-top: 5%; /* add distance to the top of the boxes */
 }
 
 .box::before {
