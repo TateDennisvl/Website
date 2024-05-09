@@ -16,3 +16,7 @@
 #play-button:hover {
     transform: translate(-50%, -50%) scale(1.1); 
 }
+
+body {
+    background-color: #504747; /* Change the background color */
+}
