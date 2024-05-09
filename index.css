@@ -8,11 +8,11 @@
     border-radius: 30px;
     background-color: rgb(150, 110, 189);
     border: none;
-    font-size: 40px;
+    font-size: 70px;
     font-family: 'Comic Neue', cursive;
-    transition: transform 0.3s; /* Add a transition effect */
+    transition: transform 0.3s;
 }
 
 #play-button:hover {
-    transform: translate(-50%, -50%) scale(1.1); /* Grow the button by 10% */
+    transform: translate(-50%, -50%) scale(1.1); 
 }
