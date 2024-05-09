@@ -20,7 +20,7 @@ body {
     margin: 2% 2% 2% 2%; /* add space between the boxes */
     position: relative; /* position the pseudo-element relative to the box */
     transition: transform 0.2s; /* add transition effect */
-    margin-top: 5%; /* add distance to the top of the boxes */
+    margin-top: 15%; /* add distance to the top of the boxes */
 }
 
 .box::before {
