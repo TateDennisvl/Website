@@ -4,7 +4,7 @@
     width: 100%;
     height: 7%;
     position: absolute;
-    border-radius: 15%;
+    border-radius: 20px;
     border: none;
 }
 
@@ -44,4 +44,16 @@
 
 body {
     background-color: #1f1f2b; /* Change the background color */
+}
+
+@media (max-width: 600px) {
+    #rectangle {
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #rectangle {
+        border-radius: 30px;
+    }
 }
