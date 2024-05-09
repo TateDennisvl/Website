@@ -5,6 +5,7 @@
     height: 7%;
     position: absolute;
     border-radius: 20px;
+    border: none;
 }
 
 #intro {
