@@ -16,7 +16,7 @@ body {
     height: 14%; /* make the height the same as the width */
     aspect-ratio: 1; /* maintain a 1:1 aspect ratio */
     background-color: pink;
-    border-radius: 10px; /* rounded edges */
+    border-radius: 30px; /* rounded edges */
     margin: 2%; /* add space between the boxes */
     position: relative; /* position the pseudo-element relative to the box */
     transition: transform 0.2s; /* add transition effect */
