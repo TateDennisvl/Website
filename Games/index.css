@@ -11,10 +11,34 @@ body {
   }
   
   .box {
-    width: 15%; /* 15% of the screen width */
-    height: 150px; /* you can adjust the height as needed */
+    width: 18%; /* 18% of the screen width */
+    height: 0;
+    padding-bottom: 18%; /* maintain aspect ratio */
     background-color: pink;
     border-radius: 10px; /* rounded edges */
-    margin: 20px; /* distance from each other and from edges */
-    content: ""; /* use CSS pseudo-element to create the box */
+    margin: 1%; /* distance from each other and from edges */
+    position: relative; /* position the pseudo-element relative to the box */
+    transition: transform 0.2s; /* add transition effect */
+  }
+  
+  .box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    border-radius: 10px;
+    transform: scale(1.1); /* grow the pseudo-element on hover */
+    transition: transform 0.2s;
+    z-index: -1; /* place the pseudo-element behind the box */
+  }
+  
+  .box:hover::before {
+    transform: scale(1.2); /* grow the pseudo-element more on hover */
+  }
+  
+  .box:hover {
+    transform: scale(1.1); /* grow the box on hover */
   }
