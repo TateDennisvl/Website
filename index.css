@@ -3,12 +3,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 10%;
-    height: 5%;
+    width: 9%;
+    height: 7%;
     border-radius: 30px;
     background-color: rgb(150, 110, 189);
     border: none;
-    font-size: 40px;
+    font-size: 3vw; /* Change the font size to 3vw */
     font-family: 'Comic Neue', cursive;
     transition: transform 0.3s;
 }
