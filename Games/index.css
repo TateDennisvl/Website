@@ -12,12 +12,12 @@ body {
 }
 
 .box {
-    width: 8%; /* adjust the width of the boxes */
-    height: 8%; /* make the height the same as the width */
+    width: 14%; /* adjust the width of the boxes */
+    height: 14%; /* make the height the same as the width */
     aspect-ratio: 1; /* maintain a 1:1 aspect ratio */
     background-color: pink;
     border-radius: 10px; /* rounded edges */
-    margin: 4%; /* add space between the boxes */
+    margin: 2%; /* add space between the boxes */
     position: relative; /* position the pseudo-element relative to the box */
     transition: transform 0.2s; /* add transition effect */
 }
