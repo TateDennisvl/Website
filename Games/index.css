@@ -2,27 +2,27 @@ body {
     margin: 0; /* remove default margin */
     padding: 0; /* remove default padding */
     background-color: #1f1f2b; /* Change the background color */
-  }
-  
-  .box-container {
+}
+
+.box-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 5%; /* add padding to the left and right of the container */
-  }
-  
-  .box {
+}
+
+.box {
     width: 8%; /* adjust the width of the boxes */
-    height: 0;
-    padding-bottom: 18%; /* maintain aspect ratio */
+    height: 8%; /* make the height the same as the width */
+    aspect-ratio: 1; /* maintain a 1:1 aspect ratio */
     background-color: pink;
     border-radius: 10px; /* rounded edges */
-    margin: 6%; /* add space between the boxes */
+    margin: 4%; /* add space between the boxes */
     position: relative; /* position the pseudo-element relative to the box */
     transition: transform 0.2s; /* add transition effect */
-  }
-  
-  .box::before {
+}
+
+.box::before {
     content: "";
     position: absolute;
     top: 0;
@@ -34,12 +34,12 @@ body {
     transform: scale(1.1); /* grow the pseudo-element on hover */
     transition: transform 0.2s;
     z-index: -1; /* place the pseudo-element behind the box */
-  }
-  
-  .box:hover::before {
+}
+
+.box:hover::before {
     transform: scale(1.2); /* grow the pseudo-element more on hover */
-  }
-  
-  .box:hover {
+}
+
+.box:hover {
     transform: scale(1.1); /* grow the box on hover */
-  }
+}
