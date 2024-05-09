@@ -16,7 +16,7 @@ body {
     height: 14%; /* make the height the same as the width */
     aspect-ratio: 1; /* maintain a 1:1 aspect ratio */
     background-color: pink;
-    border-radius: 10px; /* rounded edges */
+    border-radius: 20px; /* rounded edges */
     margin: 2% 2% 2% 2%; /* add space between the boxes */
     position: relative; /* position the pseudo-element relative to the box */
     transition: transform 0.2s; /* add transition effect */
@@ -31,7 +31,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: pink;
-    border-radius: 10px;
+    border-radius: 20px; /* rounded edges */
     transform: scale(1.1); /* grow the pseudo-element on hover */
     transition: transform 0.2s;
     z-index: -1; /* place the pseudo-element behind the box */
@@ -75,19 +75,19 @@ body {
     width: 100%;
     height: 7%;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 30px; /* rounded edges */
     border: none;
     background-color:#5d93bd;
 }
 
 @media (max-width: 600px) {
     #rectangle {
-        border-radius: 10px;
+        border-radius: 15px; /* rounded edges */
     }
 }
 
 @media (min-width: 1200px) {
     #rectangle {
-        border-radius: 30px;
+        border-radius: 45px; /* rounded edges */
     }
 }
