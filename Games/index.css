@@ -11,12 +11,12 @@ body {
   }
   
   .box {
-    width: 10%; /* adjust the width of the boxes */
+    width: 18%; /* adjust the width of the boxes */
     height: 0;
-    padding-bottom: 10%; /* maintain aspect ratio */
+    padding-bottom: 18%; /* maintain aspect ratio */
     background-color: pink;
     border-radius: 10px; /* rounded edges */
-    margin: 2%; /* add space between the boxes */
+    margin: 1%; /* add space between the boxes */
     position: relative; /* position the pseudo-element relative to the box */
     transition: transform 0.2s; /* add transition effect */
   }
@@ -42,3 +42,4 @@ body {
   .box:hover {
     transform: scale(1.1); /* grow the box on hover */
   }
+  
