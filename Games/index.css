@@ -100,7 +100,7 @@ body {
     position: absolute;
     border-radius: 50px; /* rounded edges */
     border: none;
-    background-color:#ffffff;
+    background-color:#1f1f2b;
 }
 
 #Home img {
@@ -125,3 +125,7 @@ body {
   #Home:hover img {
     transform: scale(1.1); /* scale up the image on hover */
   }
+
+  #Home:hover {
+    background-color:#34344d;
+}
