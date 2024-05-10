@@ -58,3 +58,41 @@ body {
         border-radius: 30px;
     }
 }
+
+#Home {
+    top: .7%;
+    left: 50%;
+    width: 3.5%;
+    height: 5.5%;
+    position: absolute;
+    border-radius: 50px; /* rounded edges */
+    border: none;
+    background-color:#1f1f2b;
+}
+
+#Home img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    margin: auto;
+  }
+
+  #Home {
+    transition: transform 0.2s; /* add transition effect */
+  }
+  
+  #Home:hover {
+    transform: scale(1.1); /* scale up the button on hover */
+  }
+  
+  #Home img {
+    transition: transform 0.2s; /* add transition effect */
+  }
+  
+  #Home:hover img {
+    transform: scale(1.1); /* scale up the image on hover */
+  }
+
+  #Home:hover {
+    background-color:#34344d;
+}
