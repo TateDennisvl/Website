@@ -109,3 +109,19 @@ body {
     object-fit: cover;
     margin: auto;
   }
+
+  #Home {
+    transition: transform 0.2s; /* add transition effect */
+  }
+  
+  #Home:hover {
+    transform: scale(1.1); /* scale up the button on hover */
+  }
+  
+  #Home img {
+    transition: transform 0.2s; /* add transition effect */
+  }
+  
+  #Home:hover img {
+    transform: scale(1.1); /* scale up the image on hover */
+  }
