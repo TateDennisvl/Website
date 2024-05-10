@@ -91,3 +91,14 @@ body {
         border-radius: 45px; /* rounded edges */
     }
 }
+
+#Home {
+    top: 1%;
+    left: 1%;
+    width: 5.5%;
+    height: 5.5%;
+    position: absolute;
+    border-radius: 50px; /* rounded edges */
+    border: none;
+    background-color:#5d93bd;
+}
